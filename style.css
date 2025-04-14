@@ -1,0 +1,132 @@
+* {
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   margin: 50px 0px 80px 60px;
+
+}
+
+.linkheader {
+   font-weight: 400;
+   font-size: 20px;
+   color: #17233D;
+   margin-right: 42px;
+   cursor: pointer;
+}
+
+.button01 {
+   color: #FFFFFF;
+   font-weight: 500;
+   font-size: 20px;
+   background: #6FBF44;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+
+}
+
+.img01 {
+   width: 534px;
+   height: 467px;
+   margin-left: 182px;
+   display: inline-block;
+}
+
+.h1section {
+   font-weight: 700;
+   font-size: 62px;
+   line-height: 82px;
+   color: #161A49;
+   letter-spacing: 1px;
+   margin-bottom: 50px;
+
+}
+
+section {
+   display: inline-block;
+   margin-left: 70px;
+}
+
+.paragrafo {
+   width: 493px;
+   height: 99px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 33px;
+   letter-spacing: 0.5px;
+   color: #4B505A;
+   margin-bottom: 80px;
+}
+
+.link02 {
+   font-weight: 500;
+   font-size: 20px;
+   width: 112px;
+   height: 27px;
+   line-height: 100px;
+   margin-bottom: 150px;
+   margin-top: 32px;
+   margin-bottom: 65px;
+   color: #6FBF44;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+   .h1section {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 0.6px;
+      text-align: center;
+      width: 278px;
+      height: 60px;
+      margin-top: 124px;
+
+   }
+
+   .paragrafo {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 33px;
+      letter-spacing: 0, 5px;
+      text-align: center;
+      width: 304px;
+      height: 165px;
+      margin-bottom: 150px;
+
+   }
+
+   .link02 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 1px;
+      color: #6FBF44;
+      width: 112px;
+      height: 27px;
+      margin-left: 90px
+   }
+
+   .img01 {
+      width: 312px;
+      height: 288px;
+      display: block;
+      position: absolute;
+      top: 650px;
+      margin-left: 65px;
+      text-align: center;
+   }
+
+}
+
+.section {
+   display: block;
+}
+
+header {
+   display: none;
+}
